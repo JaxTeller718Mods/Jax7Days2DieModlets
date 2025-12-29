@@ -1,0 +1,6 @@
+<JaxTeller718>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupCoffeeMaker01']/item[@name='resourcePaper']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupSodaFountain01']/item[@name='resourcePaper']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupShamwayShelves01']/item[@name='resourcePaper']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='shamwaySafeFiller']/item[@name='resourcePaper']"/>
+</JaxTeller718>
