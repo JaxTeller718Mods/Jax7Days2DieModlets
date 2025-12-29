@@ -1,0 +1,24 @@
+<JaxTeller718>
+	<append xpath="/entitygroups">
+		<entitygroup name="WildGameForestSCV">
+			animalRabbit, 5
+			animalChicken, 5
+			animalBoar, 2
+			animalDoe, 1
+			animalStag, 1
+			none, 85
+		</entitygroup>
+		<entitygroup name="WildGameForestNightSCV">
+			animalDoe, 5
+			animalStag,1
+			none, 94
+		</entitygroup>
+		<entitygroup name="EnemyAnimalsForestSCV">
+			animalSnake, 10
+			animalWolf, 5
+			animalBear, 3
+			animalBearSmall, 2
+			none, 80
+		</entitygroup>
+	</append>
+</JaxTeller718>

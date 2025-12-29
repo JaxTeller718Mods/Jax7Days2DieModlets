@@ -7,6 +7,8 @@ A collection of my personal modlets for 7 Days To Die each focusing on missing o
 | Mod Name | Description |
 | ----------- | ----------- |
 | Realistic_Loot_JT718 | Removed paper from loot places where you wouldnt expect to find it. Expansionns to come.|
+| Animal_Spawning_Increases_JT718 | Adds back missing animals to animal groups like Stags to Forest Night. Doubles the spawn chances of animals.|
+
 
 ### Direct Download All Modlets
 Direct Download to Jax7Days2DieModlets.zip https://github.com/JaxTeller718Mods/Jax7Days2DieModlets/archive/refs/heads/main.zip
@@ -15,12 +17,14 @@ Direct Download to Jax7Days2DieModlets.zip https://github.com/JaxTeller718Mods/J
 ### Change Logs
 
 [ Change Log ]
-Version:  - Prerelease
 	
 	[ Realistic_Loot_JT718 ]
 		- Added modlet.
 			- Removes paper from shamway, fountain loot lists.
 			
+	[ Animal_Spawning_Increases_JT718 ]
+		- Added modlet.
+			- Adds back missing animals to animals. Increases spawns
 			
 			
 ## Show your support

@@ -1,0 +1,34 @@
+<JaxTeller718>
+    <set xpath="/spawning/biome[@name='pine_forest']/spawn[@id='aa01'][@entitygroup='WildGameForest']/@maxcount">2</set>
+    <set xpath="/spawning/biome[@name='pine_forest']/spawn[@id='na01'][@entitygroup='WildGameForestNight']/@maxcount">2</set>
+    <set xpath="/spawning/biome[@name='pine_forest']/spawn[@id='ne01'][@entitygroup='EnemyAnimalsForest']/@maxcount">2</set>
+
+    <set xpath="/spawning/biome[@name='burnt_forest']/spawn[@id='aa01'][@entitygroup='WildGameForest']/@maxcount">2</set>
+    <set xpath="/spawning/biome[@name='burnt_forest']/spawn[@id='na01'][@entitygroup='WildGameForestNight']/@maxcount">2</set>
+    <set xpath="/spawning/biome[@name='burnt_forest']/spawn[@id='ae01'][@entitygroup='EnemyAnimalsBurntForestAny']/@maxcount">2</set>
+    <set xpath="/spawning/biome[@name='burnt_forest']/spawn[@id='ne01'][@entitygroup='EnemyAnimalsBurntForestNight']/@maxcount">2</set>
+
+    <set xpath="/spawning/biome[@name='desert']/spawn[@id='aa01'][@entitygroup='WildGameForest']/@maxcount">2</set>
+    <set xpath="/spawning/biome[@name='desert']/spawn[@id='ae01'][@entitygroup='EnemyAnimalsDesert']/@maxcount">2</set>
+    <set xpath="/spawning/biome[@name='desert']/spawn[@id='ne01'][@entitygroup='EnemyAnimalsDesertNight']/@maxcount">2</set>
+
+    <set xpath="/spawning/biome[@name='snow']/spawn[@id='aa01'][@entitygroup='WildGameForest']/@maxcount">2</set>
+    <set xpath="/spawning/biome[@name='snow']/spawn[@id='na01'][@entitygroup='WildGameStagNight']/@maxcount">2</set>
+    <set xpath="/spawning/biome[@name='snow']/spawn[@id='ae01'][@entitygroup='EnemyAnimalsSnow']/@maxcount">2</set>
+    <set xpath="/spawning/biome[@name='snow']/spawn[@id='ne01'][@entitygroup='EnemyAnimalsSnowNight']/@maxcount">2</set>
+
+    <set xpath="/spawning/biome[@name='wasteland']/spawn[@id='na01'][@entitygroup='WildGameStagNight']/@maxcount">2</set>
+    <set xpath="/spawning/biome[@name='wasteland']/spawn[@id='ae01'][@entitygroup='EnemyAnimalsWasteland']/@maxcount">2</set>
+    <set xpath="/spawning/biome[@name='wasteland']/spawn[@id='ne01'][@entitygroup='EnemyAnimalsWastelandNight']/@maxcount">2</set>
+	
+    <set xpath="/spawning/biome[@name='pine_forest']/spawn[@id='aa01'][@entitygroup='WildGameForest']/@entitygroup">WildGameForestSCV</set>
+    <set xpath="/spawning/biome[@name='pine_forest']/spawn[@id='na01'][@entitygroup='WildGameForestNight']/@entitygroup">WildGameForestNightSCV</set>
+    <set xpath="/spawning/biome[@name='pine_forest']/spawn[@id='ne01'][@entitygroup='EnemyAnimalsForest']/@entitygroup">EnemyAnimalsForestSCV</set>
+
+    <set xpath="/spawning/biome[@name='burnt_forest']/spawn[@id='aa01'][@entitygroup='WildGameForest']/@entitygroup">WildGameForestSCV</set>
+    <set xpath="/spawning/biome[@name='burnt_forest']/spawn[@id='na01'][@entitygroup='WildGameForestNight']/@entitygroup">WildGameForestNightSCV</set>
+
+    <set xpath="/spawning/biome[@name='desert']/spawn[@id='aa01'][@entitygroup='WildGameForest']/@entitygroup">WildGameForestSCV</set>
+
+    <set xpath="/spawning/biome[@name='snow']/spawn[@id='aa01'][@entitygroup='WildGameForest']/@entitygroup">WildGameForestSCV</set>
+</JaxTeller718>

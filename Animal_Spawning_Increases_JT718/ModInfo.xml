@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="Animal_Spawning_Increases_JT718"/>
+	<DisplayName value="Animal Spawn Increases by JaxTeller718"/>
+	<Description value="Increases Wilderness animals so a few more will spawn and adds missing animals to groups."/>
+	<Author value="JaxTeller718"/>
+	<Version value="1.0.0" />
+	<Website value="https://discord.gg/XWphRtm" />
+	<SkipWithAntiCheat value="false" />
+</xml>
