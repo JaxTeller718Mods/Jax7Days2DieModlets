@@ -1,0 +1,12 @@
+<JaxTeller718>
+
+	<insertAfter xpath="/blocks/block[@name='cntGasGrillRandomLootHelper']/drop[@event='Destroy']">
+		<drop event="Destroy" name="toolCookingGrill" count="1" prob="0.3"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='cntCharcoalGrillRandomLootHelper']/drop[@event='Destroy']">
+		<drop event="Destroy" name="toolCookingGrill" count="1" prob="0.3"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='cntStoveOldVer1Closed']/drop[@event='Destroy']">
+		<drop event="Destroy" name="toolCookingGrill" count="1" prob="0.3"/>
+	</insertAfter>
+</JaxTeller718>

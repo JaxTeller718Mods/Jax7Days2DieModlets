@@ -16,7 +16,14 @@ Direct Download to Jax7Days2DieModlets.zip https://github.com/JaxTeller718Mods/J
 
 ### Change Logs
 
-[ Change Log ]
+[ Updated 12-30-2025 ]
+	
+	[ Realistic_Loot_JT718 ]
+		- Added 30% chance for Grills to drop from destroying Stoves and BBQ Grills.			
+		- Removed Tier 0 Tools and Weapons such as Stone Axes and Clubs from Loot pushing forward other loot.			
+
+
+[ Updated 12-28-2025 ]
 	
 	[ Realistic_Loot_JT718 ]
 		- Added modlet.
@@ -24,8 +31,7 @@ Direct Download to Jax7Days2DieModlets.zip https://github.com/JaxTeller718Mods/J
 			
 	[ Animal_Spawning_Increases_JT718 ]
 		- Added modlet.
-			- Adds back missing animals to animals. Increases spawns
-			
+			- Adds back missing animals to animals. Increases spawns			
 			
 ## Show your support
 

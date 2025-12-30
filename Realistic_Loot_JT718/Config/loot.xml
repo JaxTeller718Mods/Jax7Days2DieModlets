@@ -3,4 +3,22 @@
 	<remove xpath="/lootcontainers/lootgroup[@name='groupSodaFountain01']/item[@name='resourcePaper']"/>
 	<remove xpath="/lootcontainers/lootgroup[@name='groupShamwayShelves01']/item[@name='resourcePaper']"/>
 	<remove xpath="/lootcontainers/lootgroup[@name='shamwaySafeFiller']/item[@name='resourcePaper']"/>
+
+	<remove xpath="/lootcontainers/lootgroup[@name='groupBackpacks02']/item[@group='groupWeaponsT0_All']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupCampingTents02']/item[@group='groupWeaponsT0_All']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupWeaponsRangedScaled']/item[@group='groupWeaponsT0_Ranged']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupWeaponsRangedScaledTPlus']/item[@group='groupWeaponsT0_Ranged']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupWeaponsRangedScaledNoStone']/item[@group='groupWeaponsT0_Ranged']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupWeaponsRangedScaledNoParts']/item[@group='groupWeaponsT0_Ranged']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupCars03']/item[@group='groupWeaponsT0_Ranged']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupWeaponsMeleeScaled']/item[@group='groupWeaponsT0_Melee']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupWeaponsMeleeScaledTPlus']/item[@group='groupWeaponsT0_Melee']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupWeaponsMeleeScaledNoStone']/item[@group='groupWeaponsT0_Melee']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupWeaponsMeleeScaledNoParts']/item[@group='groupWeaponsT0_Melee']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupCars02']/item[@group='groupWeaponsT0_Melee']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupMilitaryFootlocker02']/item[@group='groupFootlockerWeapons01']"/>
+	
+	<remove xpath="/lootcontainers/lootgroup[@name='groupToolsTiered']/item[@group='groupToolsT0']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupToolsTieredBonus']/item[@group='groupToolsT0']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupCars02']/item[@group='groupToolsT0']"/>
 </JaxTeller718>
