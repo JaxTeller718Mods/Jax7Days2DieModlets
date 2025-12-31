@@ -1,0 +1,28 @@
+<JaxTeller718>
+	<append xpath="/items">
+		<item name="resourceBrassHinge">
+			<property name="DescriptionKey" value="resourceBrassHingeDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourceScrapBrassMedium"/>
+			<property name="MeltTimePerUnit" value=".4"/>
+			<property name="Stacknumber" value="250"/>
+			<property name="Weight" value="50"/>
+			<property name="EconomicValue" value="40"/>
+			<property name="Group" value="Resources"/>
+			<property name="SoundPickup" value="doorknob_grab"/>
+			<property name="SoundPlace" value="doorknob_place"/>
+		</item>
+	</append>
+	<append xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/effect_group[@name='meleeToolRepairT1ClawHammer']">
+		<passive_effect name="HarvestCount" operation="base_set" value="1" tags="nailsHarvest"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/effect_group[@name='meleeToolRepairT0StoneAxe']">
+		<passive_effect name="HarvestCount" operation="base_set" value="1" tags="nailsHarvest"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolAxeT1IronFireaxe']/effect_group[@name='meleeToolAxeT1IronFireaxe']">
+		<passive_effect name="HarvestCount" operation="base_set" value="1" tags="nailsHarvest"/>
+	</append>
+</JaxTeller718>

@@ -1,0 +1,290 @@
+<JaxTeller718>
+	<append xpath="/blocks/block [ @name='woodWeakNoUpgradeMaster' or @name='woodNoUpgradeMaster' or @name='decoEntityWoodMaster' or @name='wineBarrel' or @name='woodReinforcedShapes' or @name='woodFenceSheet' or @name='woodFenceFarmSheet' or @name='rWoodMaster' or @name='cntCabinet' or @name='cntCupboard' or @name='cntWoodDesk01Closed' or @name='cntSecureStorageChest' or @name='endTable' or @name='ladderWood' or @name='window03Wood' or @name='secureDoorWooden' or @name='houseFrontDoor1_v1' or @name='houseFrontDoor2_v1' ] /property [ @class='RepairItems' ]">
+		<property name="resourceNail" value="2"/>
+	</append>
+	<insertAfter xpath="/blocks/block[@name='woodFenceSheet']/property[@name='SortOrder1']">
+		<drop event="Harvest" name="resourceNail" count="1,2" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='signPosterMovie2159']/drop[@event='Destroy']">
+		<property name="resourceNail" value="0"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='woodenFenceDoorWhite']/property[@name='SortOrder1']">
+		<drop event="Harvest" name="resourceNail" count="1,2" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='woodShapes']/property[@name='SortOrder1']">
+		<drop event="Harvest" name="resourceNail" count="1,2" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='cntCabinetBottomFiller']/drop[@event='Destroy']">
+		<drop event="Harvest" name="resourceNail" count="1,2" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='counterHollowCabinetOpen']/property[@name='SortOrder2']">
+		<drop event="Harvest" name="resourceNail" count="1,2" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='woodWeakNoUpgradeMaster']/property[@name='SortOrder2']">
+		<drop event="Harvest" name="resourceNail" count="1,2" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='palletEmpty']/property[@name='SortOrder1']">
+		<drop event="Harvest" name="resourceNail" count="1,2" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='palletEmptyStack']/property[@name='SortOrder1']">
+		<drop event="Harvest" name="resourceNail" count="1,2" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='cntNightstandRandomLootHelper']/property[@name='DescriptionKey']">
+		<drop event="Harvest" name="resourceNail" count="2,3" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='decoEntityWoodMaster']/property[@name='FilterTags']">
+		<drop event="Harvest" name="resourceNail" count="2,3" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='decoPicnicTable']/property[@name='DescriptionKey']">
+		<drop event="Harvest" name="resourceNail" count="2,3" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='decoPoolTable']/property[@name='FilterTags']">
+		<drop event="Harvest" name="resourceNail" count="2,3" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='endTable']/property[@name='SortOrder1']">
+		<drop event="Harvest" name="resourceNail" count="1,2" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='piano']/property[@name='FilterTags']">
+		<drop event="Harvest" name="resourceNail" count="2,3" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='churchPewLeftWhite']/property[@name='FilterTags']">
+		<drop event="Harvest" name="resourceNail" count="2,3" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='bleachersTopMiddle']/property[@name='FilterTags']">
+		<drop event="Harvest" name="resourceNail" count="2,3" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='parkBenchA']/property[@name='FilterTags']">
+		<drop event="Harvest" name="resourceNail" count="2,3" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='wineBarrel']/property[@name='FilterTags']">
+		<drop event="Harvest" name="resourceNail" count="2,3" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='oldWoodDoor']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceDoorKnob" count="1,2" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='oldWoodDoorDouble']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceDoorKnob" count="1,4" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='ironDoorWhite']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceDoorKnob" count="1,2" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='ironDoorDoubleWhite']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceDoorKnob" count="1,4" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='vaultDoor01']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceDoorKnob" count="1,2" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='vaultDoor01Double']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHinge" count="1,4" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='cellarDoorDoubleWood']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHinge" count="1,4" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='cellarDoorDoubleIron']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHinge" count="1,4" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='cellarDoorDoubleSteel']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHinge" count="1,4" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='exteriorHouseDoorWhite']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHinge" count="1,2" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='exteriorHouseDoorDoubleWhite']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHinge" count="1,4" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='frenchDoorDoubleWhite']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHinge" count="1,2" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='interiorHouseDoorWhite']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHinge" count="1,2" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='interiorHouseDoorDoubleWhite']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHinge" count="1,4" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='interiorDoorOldWhite']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHinge" count="1,2" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='interiorDoorOldDoubleWhite']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHinge" count="1,4" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='commercialGlassDoor']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHinge" count="1,2" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='commercialGlassDoorDouble']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHinge" count="1,4" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='commercialDoorV1White']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHinge" count="1,2" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='commercialDoorDoubleV1White']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHinge" count="1,4" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='commercialDoorV2White']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHinge" count="1,2" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='commercialDoorDoubleV2White']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHinge" count="1,4" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='commercialDoorV3White']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHinge" count="1,2" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='commercialDoorDoubleV3White']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHinge" count="1,4" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='commercialDoorV4White']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHinge" count="1,2" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='commercialDoorDoubleV4White']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHinge" count="1,4" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='trailerDoorWhite']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHinge" count="1,2" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='woodenFenceDoorWhite']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHinge" count="1,2" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='woodHatch']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHinge" count="1,2" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='ironHatchWhite']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHinge" count="1,2" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='oldWoodDoor']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceDoorKnob" count="0,1" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='oldWoodDoorDouble']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceDoorKnob" count="0,2" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='ironDoorWhite']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceDoorKnob" count="0,1" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='ironDoorDoubleWhite']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceDoorKnob" count="0,2" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='cellarDoorDoubleWood']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceDoorKnob" count="0,2" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='cellarDoorDoubleIron']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceDoorKnob" count="0,2" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='cellarDoorDoubleSteel']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceDoorKnob" count="0,2" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='exteriorHouseDoorWhite']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceDoorKnob" count="0,1" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='exteriorHouseDoorDoubleWhite']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceDoorKnob" count="0,2" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='frenchDoorDoubleWhite']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceDoorKnob" count="0,1" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='interiorHouseDoorWhite']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceDoorKnob" count="0,1" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='interiorHouseDoorDoubleWhite']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceDoorKnob" count="0,2" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='interiorDoorOldWhite']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceDoorKnob" count="0,1" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='interiorDoorOldDoubleWhite']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceDoorKnob" count="0,2" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='commercialDoorV1White']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceDoorKnob" count="0,1" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='commercialDoorDoubleV1White']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceDoorKnob" count="0,2" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='commercialDoorV2White']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceDoorKnob" count="0,1" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='commercialDoorDoubleV2White']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceDoorKnob" count="0,2" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='commercialDoorV3White']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceDoorKnob" count="0,1" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='commercialDoorDoubleV3White']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceDoorKnob" count="0,2" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='commercialDoorV4White']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceDoorKnob" count="0,1" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='commercialDoorDoubleV4White']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceDoorKnob" count="0,2" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='trailerDoorWhite']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceDoorKnob" count="0,1" prob=".6" tag="allHarvest"/>
+	</insertAfter>
+	<append xpath="/blocks/block[@name='vaultDoor01Double']/property[@class='RepairItems']">
+		<property name="resourceDoorKnob" value="1"/>
+	</append>
+	<append xpath="/blocks/block[@name='cellarDoorDoubleWood']/property[@class='RepairItems']">
+		<property name="resourceDoorKnob" value="1"/>
+	</append>
+	<append xpath="/blocks/block[@name='cellarDoorDoubleIron']/property[@class='RepairItems']">
+		<property name="resourceDoorKnob" value="1"/>
+	</append>
+	<append xpath="/blocks/block[@name='cellarDoorDoubleSteel']/property[@class='RepairItems']">
+		<property name="resourceDoorKnob" value="1"/>
+	</append>
+	<append xpath="/blocks/block[@name='exteriorHouseDoorWhite']/property[@class='RepairItems']">
+		<property name="resourceDoorKnob" value="1"/>
+	</append>
+	<append xpath="/blocks/block[@name='exteriorHouseDoorDoubleWhite']/property[@class='RepairItems']">
+		<property name="resourceDoorKnob" value="1"/>
+	</append>
+	<append xpath="/blocks/block[@name='frenchDoorDoubleWhite']/property[@class='RepairItems']">
+		<property name="resourceDoorKnob" value="1"/>
+	</append>
+	<append xpath="/blocks/block[@name='interiorHouseDoorWhite']/property[@class='RepairItems']">
+		<property name="resourceDoorKnob" value="1"/>
+	</append>
+	<append xpath="/blocks/block[@name='interiorHouseDoorDoubleWhite']/property[@class='RepairItems']">
+		<property name="resourceDoorKnob" value="1"/>
+	</append>
+	<append xpath="/blocks/block[@name='interiorDoorOldWhite']/property[@class='RepairItems']">
+		<property name="resourceDoorKnob" value="1"/>
+	</append>
+	<append xpath="/blocks/block[@name='interiorDoorOldDoubleWhite']/property[@class='RepairItems']">
+		<property name="resourceDoorKnob" value="1"/>
+	</append>
+	<append xpath="/blocks/block[@name='commercialGlassDoor']/property[@class='RepairItems']">
+		<property name="resourceDoorKnob" value="1"/>
+	</append>
+	<append xpath="/blocks/block[@name='commercialGlassDoorDouble']/property[@class='RepairItems']">
+		<property name="resourceDoorKnob" value="1"/>
+	</append>
+	<append xpath="/blocks/block[@name='commercialDoorV1White']/property[@class='RepairItems']">
+		<property name="resourceDoorKnob" value="1"/>
+	</append>
+	<append xpath="/blocks/block[@name='commercialDoorDoubleV1White']/property[@class='RepairItems']">
+		<property name="resourceDoorKnob" value="1"/>
+	</append>
+	<append xpath="/blocks/block[@name='commercialDoorV2White']/property[@class='RepairItems']">
+		<property name="resourceDoorKnob" value="1"/>
+	</append>
+	<append xpath="/blocks/block[@name='commercialDoorDoubleV2White']/property[@class='RepairItems']">
+		<property name="resourceDoorKnob" value="1"/>
+	</append>
+	<append xpath="/blocks/block[@name='commercialDoorV3White']/property[@class='RepairItems']">
+		<property name="resourceDoorKnob" value="1"/>
+	</append>
+	<append xpath="/blocks/block[@name='commercialDoorDoubleV3White']/property[@class='RepairItems']">
+		<property name="resourceDoorKnob" value="1"/>
+	</append>
+	<append xpath="/blocks/block[@name='commercialDoorV4White']/property[@class='RepairItems']">
+		<property name="resourceDoorKnob" value="1"/>
+	</append>
+	<append xpath="/blocks/block[@name='commercialDoorDoubleV4White']/property[@class='RepairItems']">
+		<property name="resourceDoorKnob" value="1"/>
+	</append>
+	<append xpath="/blocks/block[@name='trailerDoorWhite']/property[@class='RepairItems']">
+		<property name="resourceDoorKnob" value="1"/>
+	</append>
+	<append xpath="/blocks/block[@name='woodenFenceDoorWhite']/property[@class='RepairItems']">
+		<property name="resourceDoorKnob" value="1"/>
+	</append>
+</JaxTeller718>

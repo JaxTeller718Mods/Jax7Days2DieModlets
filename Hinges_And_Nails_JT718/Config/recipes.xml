@@ -1,0 +1,100 @@
+<JaxTeller718>
+	<append xpath="/recipes/recipe[ starts-with(@name, 'wood') or (contains(@name, 'whitePicketFenceSheet')) or (contains(@name, 'oldChair1VariantHelper')) or (contains(@name, 'cntBookcase')) or (contains(@name, 'cntCabinetBottom')) or (contains(@name, 'cntCupboardCabinetRedTopClosed')) or (contains(@name, 'cntWoodDesk01Closed')) or (contains(@name, 'cntSecureStorageChest')) or (contains(@name, 'secureDoorWooden')) or (contains(@name, 'ladderWood')) or (contains(@name, 'window03Wood')) and not(contains(@name, 'woodChair1')) and not(contains(@name, 'woodLogPillar100')) and not(contains(@name, 'woodTable')) and not(contains(@name, 'woodFrame'))	 ]">
+		<ingredient name="resourceNail" count="4"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='cntWoodWritableCrate']">
+		<ingredient name="resourceBrassHinge" count="2"/>
+		<ingredient name="resourceNail" count="2"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='cntIronWritableCrate']">
+		<ingredient name="resourceBrassHinge" count="2"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='cntSteelWritableCrate']">
+		<ingredient name="resourceBrassHinge" count="2"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='ironHatchBlockVariantHelper']">
+		<ingredient name="resourceBrassHinge" count="2"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='woodHatch']">
+		<ingredient name="resourceBrassHinge" count="2"/>
+		<ingredient name="resourceNail" count="2"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='vaultHatch01']">
+		<ingredient name="resourceBrassHinge" count="2"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='vaultHatch01_Powered']">
+		<ingredient name="resourceBrassHinge" count="2"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='vaultDoor01']">
+		<ingredient name="resourceBrassHinge" count="2"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='vaultDoor01_Powered']">
+		<ingredient name="resourceBrassHinge" count="2"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='vaultDoor01Double']">
+		<ingredient name="resourceBrassHinge" count="4"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='vaultDoor01Double_Powered']">
+		<ingredient name="resourceBrassHinge" count="4"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='cellarDoorDoubleWood']">
+		<ingredient name="resourceBrassHinge" count="4"/>
+		<ingredient name="resourceSpring" count="4"/>
+		<ingredient name="resourceNail" count="8"/>
+		<ingredient name="resourceDoorKnob" count="2"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='cellarDoorDoubleIron']">
+		<ingredient name="resourceBrassHinge" count="4"/>
+		<ingredient name="resourceSpring" count="4"/>
+		<ingredient name="resourceDoorKnob" count="2"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='cellarDoorDoubleSteel']">
+		<ingredient name="resourceBrassHinge" count="4"/>
+		<ingredient name="resourceSpring" count="4"/>
+		<ingredient name="resourceDoorKnob" count="2"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='shuttersWoodBlockVariantHelper']">
+		<ingredient name="resourceBrassHinge" count="4"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='shuttersIronBlockVariantHelper']">
+		<ingredient name="resourceBrassHinge" count="4"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='shuttersSteelBlockVariantHelper']">
+		<ingredient name="resourceBrassHinge" count="4"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='ironDoorBlockVariantHelper']">
+		<ingredient name="resourceBrassHinge" count="2"/>
+		<ingredient name="resourceSpring" count="2"/>
+		<ingredient name="resourceDoorKnob" count="1"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='ironDoorDoubleBlockVariantHelper']">
+		<ingredient name="resourceBrassHinge" count="4"/>
+		<ingredient name="resourceSpring" count="4"/>
+		<ingredient name="resourceDoorKnob" count="2"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='oldWoodDoorDouble']">
+		<ingredient name="resourceBrassHinge" count="4"/>
+		<ingredient name="resourceNail" count="8"/>
+		<ingredient name="resourceDoorKnob" count="2"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='oldWoodDoor']">
+		<ingredient name="resourceBrassHinge" count="2"/>
+		<ingredient name="resourceNail" count="2"/>
+	</append>
+	<append xpath="/recipes">
+		<recipe name="resourceDoorKnob" count="1" material_based="true" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering">
+			<ingredient name="unit_brass" count="100"/>
+			<ingredient name="unit_clay" count="25"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".25,.25,.25,.12,.06" tags="unit_brass,unit_clay"/>
+			</effect_group>
+		</recipe>
+		<recipe name="resourceBrassHinge" count="1" material_based="true" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering">
+			<ingredient name="unit_brass" count="50"/>
+			<ingredient name="unit_clay" count="10"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".25,.25,.25,.12,.06" tags="unit_brass,unit_clay"/>
+			</effect_group>
+		</recipe>
+	</append>
+</JaxTeller718>
