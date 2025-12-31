@@ -19,6 +19,12 @@ Direct Download to Jax7Days2DieModlets.zip https://github.com/JaxTeller718Mods/J
 [ Updated 12-30-2025 ]
 	
 	[ Realistic_Loot_JT718 ]
+		- Replaced Tier 0 Tools and Weapons with Tool and Weapon Part Loot.			
+
+
+[ Updated 12-30-2025 ]
+	
+	[ Realistic_Loot_JT718 ]
 		- Added 30% chance for Grills to drop from destroying Stoves and BBQ Grills.			
 		- Removed Tier 0 Tools and Weapons such as Stone Axes and Clubs from Loot pushing forward other loot.			
 
